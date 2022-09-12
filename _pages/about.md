@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Associate Professor, Department of Biological Sciences, Indian Institute of Science Education and Research Mohali
+subtitle: <a href='#'>Affiliations</a>. Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali.
 
 profile:
   align: right
