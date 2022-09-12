@@ -42,3 +42,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
               </li>
               {%- endif %}
 ## removed blog entry after about (line 52 onwarsd)
+
+
+pages to add can be listed in the _pages, header.html query and picks them, 
+have added the mmebers section, but its layout and setting up the xcontenst will be demanding and iwll do them in some time
