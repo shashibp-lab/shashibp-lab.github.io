@@ -12,6 +12,5 @@ children:
       permalink: /teaching/
     - title: divider
     - title: career in comp. bio.
-    permalink: /careerincompbio/
-
+      permalink: /careerincompbio/
 ---
