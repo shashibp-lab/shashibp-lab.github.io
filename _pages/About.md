@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 title: About
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali.
