@@ -41,7 +41,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                 </a>
               </li>
               {%- endif %}
-## removed blog entry after about (line 52 onwarsd)
+## removed blog entry after about (line 52 onwarsd) 
 
 
 pages to add can be listed in the _pages, header.html query and picks them, 
