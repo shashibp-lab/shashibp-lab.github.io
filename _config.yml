@@ -2,8 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: shashibp-lab (ISCBL) # the website title (if blank, full name will be used instead)
+title: Shashi B. Pandit # the website title (if blank, full name will be used instead)
 #title is pasted 
+subtitle: Integrative Systems and Computational Biology Lab (ISCBL)
 first_name: Shashi
 middle_name: B.
 last_name: Pandit

@@ -46,3 +46,12 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 pages to add can be listed in the _pages, header.html query and picks them, 
 have added the mmebers section, but its layout and setting up the xcontenst will be demanding and iwll do them in some time
+
+
+
+24 sep 2022
+remove from about. layout susbutile
+
+          <h1 class="post-title">
+           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+          </h1>

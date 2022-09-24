@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Lab Page of Dr Shashi B. Pandit (<a href='#'>Affiliations</a>. Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali.)
+subtitle: Lab Page of Dr Shashi B. Pandit (<a href='#'>Affiliation</a>. Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali.)
 
 profile:
   align: right
