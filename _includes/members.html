@@ -1,0 +1,26 @@
+<!-- _includes/projects.html -->
+
+
+<div class="grid-sizer"></div>
+<div class="grid-item">
+      <div class="card hoverable">
+        {%- if member.img %}
+        {%- include figure.html
+          path=member.img
+          alt="member thumbnail" -%}
+        {%- endif %}
+        <div class="card-body">
+          <span class="card-title">{{ member.name }}</span>
+          {%- if member.twitter -%}
+              <span class="github-icon">
+                <span class="icon" data-toggle="tooltip" title="Code Repository">
+                  <a href="{{ member.twitter }}">
+                    <i class="fab fa-twitter gh-icon"></i>
+                  </a>
+                </span>
+              </span>
+            {%- endif %}
+          <p class="card-text">{{ member.workdescription }}</p>
+        </div>
+      </div>
+</div>

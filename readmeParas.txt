@@ -55,3 +55,24 @@ remove from about. layout susbutile
           <h1 class="post-title">
            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
+
+modifying below to have both journal name and the opreview
+        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+        {%- if entry.preview -%}
+          {% if entry.preview contains '://' -%}
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          {%- else -%}
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
+          {%- endif -%}
+        {%- elsif entry.abbr -%}
+          {%- if site.data.venues[entry.abbr] -%}
+            {%- assign venue_style = nil -%}
+            {%- if site.data.venues[entry.abbr].color != blank -%}
+              {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
+            {%- endif -%}
+            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
+          {%- else -%}
+            <abbr class="badge">{{entry.abbr}}</abbr>
+          {%- endif -%}
+        {%- endif -%}
+        </div>

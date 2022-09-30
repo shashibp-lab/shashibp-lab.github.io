@@ -1,24 +1,12 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Shashi B. Pandit
- 
-- title: Education
+
+- title: 1.    Study of intrachain domain interfaces and its implication in protein structure modeling.
   type: time_table
   contents:
-    - title: PhD
-      institution: Indian Institute of Science, Bangalore, India
-      year: 2005
-      description:
-        - title: Molecular Biophysics Unit
-          contents:
-            - Inference of protein structures and functions from large-scale data analysis.
-    - title: MS
-      institution: Indian Institute of Science, Bangalore, India
-      year: 2001
-      description:
-        "Family of G-proteins-Survey in genomes, structural comparison and modeling."
+    - light: Domains are conserved sequence or structural regions of a protein, often capable of folding and existing on their own in an aqueous solution. They can be described as structural and functional units of a protein. Having multiple domains in protein facilitates complex biological function as well as enhances its efficiency by providing scaffold for functional modules. Over 80% of the eukaryotic genome codes for multidomain proteins. Understanding the physiological properties of intra-chain domain-domain interaction interfaces (DDIs) of multidomain proteins and their evolutionary conservation can provide insights into the function, engineering, and modeling of multidomain proteins. Through our systematic and comprehensive study we have found that  domain interfaces are in general conserved in the intra- chain domain-domain interfaces in multidomain proteins. We have performed a systematic and comprehensive study on the conservation of intra- chain domain-domain interfaces in multidomain proteins. For multiple structures solved for the same sequence, we have found that domain interfaces are in general conserved among them. Any large conformational changes occur upon ligand/DNA/RNA binding that involves domains.
+      dogma: Comp. Structural Proteomics
+      
+      image : assets/projects/shashibp.jpg
+
 
 - title: Experience
   type: time_table

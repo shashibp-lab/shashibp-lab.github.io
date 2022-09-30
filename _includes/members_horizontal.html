@@ -1,0 +1,39 @@
+<div class="card-item col">
+    <div class="card hoverable">
+      <div class="row g-0">
+        {%- if member.img -%}
+        <div class="card-img col-md-6">
+          {% include figure.html path=member.img alt="member thumbnail" %}
+        </div>
+        <div class="col-md-6">
+        {%- else -%}
+        <div class="col-md-12">
+        {%- endif -%}
+          <div class="card-body">
+            <span class="card-title">{{ member.name }}</span>
+            {%- if member.twitter -%}
+              <span class="github-icon">
+                <span class="icon" data-toggle="tooltip" title="Code Repository">
+                  <a href="{{ member.twitter }}">
+                    <i class="fab fa-twitter gh-icon"></i>
+                  </a>
+                </span>
+              </span>
+            {%- endif %}
+            <div class="card-text"> {{ member.level}} </div>
+            {% if member.category == "current" %}
+            <div class="card-text">Exams: {{ member.exams}} </div>
+            {% endif %}
+
+            {% if member.category == "alumni" %}
+            <p class="card-text">Project/Thesis: {{ member.workdescription}} </p>
+            
+            {% else %}
+            <p class="card-text" style="font-style: oblique"> "{{ member.workdescription }}"</p>
+            {% endif %}
+            
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

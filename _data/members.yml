@@ -3,7 +3,7 @@
   contents:
     - name: Full Name
       value: Shashi B. Pandit
- 
+
 - title: Education
   type: time_table
   contents:
@@ -60,4 +60,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u>, Playing Guitar, Reading enthusiast, Cycling.
+    - <u>Hobbies:</u> Playing Guitar, Reading enthusiast, Cycling.
