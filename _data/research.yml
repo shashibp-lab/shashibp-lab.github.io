@@ -1,51 +1,115 @@
+- title: P1 - One gene multiple protein conundrum.
+  type: time_table 
+  contents:
+    - body: One of the major challenges in current understanding of central dogma is perceiving and transitioning from “one gene one protein” paradigm to “one gene multiple protein” one. For instance, the number of genes in human or higher eukaryotes represent only a fraction of proteins expressed. This diversity is aided at multiple levels and equally regulated via processes known as Alternative transcription initiation and termination, alternative translation sites, alternative splicing, post translational modification and many more. These processes in general provide phenotypic complexity and are very impactful in different stages of organism life, proxy of which can be inferred by tremendous cost implied with their misregulation in the form of genetic and regulation altered diseases. In our lab we are trying to solve problems of such a scale by using both bottom up and top down approaches. We are trying to leverage our knowledge of protein structures and their mechanism of action (bottoms up) with the broader scale of genome wide loci contributing maximally to such diversities (top down). we hereby are interested in the following aspects of this problem.
+      dogma: "proteogenomics"
+      description:
+        - quantifying the functional alternative splicing events (using experimental mass spec and rna seq integration)
+        - Systematic characterization of such events from protein sequence changes perspective.
+        - measuring the impact of gene-pieces (exons) on function protein regions conservation and choice of protein regions being altered by such events. 
+      conclusion: We believe that knowledge and information generated from above will help us design natural intelligence based protein and corresponding sequences. Further such knowledge also has impact in knowing the regions of protein amenable for modifications and regions which are not, which can also further be transitioned for therapeutic purposes or in future can be thought to provide alternatives to costly RNA based therapeutics. 
+      image: assets/projects/proteogenomics.png
+      caption: "proteogenomics"
 
-- title: 1.    Study of intrachain domain interfaces and its implication in protein structure modeling.
+- title: P2 - Materiomics driven learning of silk design principles and strength attributes.
+  type: time_table 
+  contents:
+    - body: “Mimicry” is the most advanced form of inspiration and involves applying engineering and technological tools to develop materials akin to those found in nature with the prime objective of achieving sustainability. One of such natural materials are protein-based biopolymer fibers that we call silk and it possesses exceptional mechanical properties. There have been several attempts to mimic the molecular assembly of silk protein on an industrial scale, yet it remained challenging owing to a lack of complete understanding of design principles relating silk sequence to its structural properties. Silk fiber owes its extraordinary mechanical strength to the hierarchical arrangement of laminated antiparallel β-sheet nanocrystals embedded in an amorphous matrix composed of predominantly short stretches of regular or nonregular secondary structures.The key to silk fiber strength lies in β-sheet nanocrystals.  In our lab, we are interested in the following
+      dogma: "proteogenomics"
+      description:
+        - Integrative structural modeling- silk being fibrous protein, provides its own challenges to varied experimental techniques. However, parts and separate regions of silk have been detailed by modified NMR and fibro-diffraction measurements. The challenge is to carefully screen and extract from literature such molecular variables and model the changes in silico.
+        - detailed dynamics driven study of the resulting model will help us provide insights into the interaction between the strength imparting beta sheet nanocrystals and matrix of disordered regions. the careful dynamics of such regions are yet to be detailed as they are supposedly the key that can unlock the mechanism of multiple physical attributes silk fiber holds.
+        - structural geometry evolution of the beta sheet nanocrystals- In our recent publication, we have explored the impact of beta sheet favoring residues on silk beta sheet crystal topology and packing. however, possible variety they can introduce in de-novo packing of thjeirs wasnt. It would also be interesting to perform such ex[periments and compare them to aggregation prone amyloid fibrils, exepaily from the common strcuyral signatures if polar and steric zippers. 
+      conclusion: The above project and studies will compensate for reducing massive structural gap between the strength design attributes and protein quaternary organization and we believe will provide insights into the under-appreciated role of maintaining quaternary and tertiary units apt packing while designing materiomics driven protein fibers and design units. work is largely performed in collaboration with the femtosecond lab (Dr. KP singh, IISER-M). 
+      image: assets/projects/silk.gif
+      caption: "Instance of hydrogen bond breaking while simulating extenal load failure."
+
+
+
+
+- title: P3 - Understanding enzyme promiscuity (Preeti, Deeksha).
+  type: time_table 
+  contents:
+    - body: Substrate promiscuity is the ability of (some) enzymes to catalyze alternate substrate(s) other than its native one. It is widely studied for its biotechnological applications and understanding enzyme evolution. Insights into the structural basis of substrate promiscuity would greatly benefit the design and engineering of enzymes. Previous studies on some enzymes have suggested that flexibility, hydrophobicity, and active site protonation state could play an important role in enzyme promiscuity. However, it is not known yet whether substrate promiscuous enzymes have distinctive structural characteristics compared to specialist enzymes, which are specific for a substrate. In pursuit to address this, we have systematically compared active site structural features of promiscuous with those of specialist enzymes and found them to be quite similar. We also proposed that substrate promiscuity could be defined as a continuum feature that varies from narrow (specialist) to broad range of substrate preferences. In addition to above we are interested in following-
+
+      dogma: "proteogenomics"
+      description:
+        - If structure doesn't then what dictates the segregation between prom and spec ?
+
+        - As functional conservation of such enzymes are debatable ( in different organisms), what dictates enzymes to adapt in those roles and why? Is there a presence of allosteric regulation via cryptic binding sites or change in interaction partners in different organisms? 
+
+        - Predicting promiscuous and specialist enzymes and modeling their impact on microbial stress / altered conditions using flux balance analysis (another project below in list)., 
+        
+
+      conclusion: Information and observations gained from above analysis will help not only knowing more details about enzymes but also their commercial importance which if can be tuned allosterically by mcimking what triggers promiscuity or may provide tremendous biotechnological wealth. Moreover, this also holds promising value in modeling metabolite gut microbiome interactions where impacts of such promiscuous activities have yet to be studied. 
+
+      image: assets/projects/proteogenomics.png
+      caption: "... enzyme promiscuity"
+      
+- title: P1 - One gene multiple protein conundrum.
+  type: time_table 
+  contents:
+    - body: One of the major challenges in current understanding of central dogma is perceiving and transitioning from “one gene one protein” paradigm to “one gene multiple protein” one. For instance, the number of genes in human or higher eukaryotes represent only a fraction of proteins expressed. This diversity is aided at multiple levels and equally regulated via processes known as Alternative transcription initiation and termination, alternative translation sites, alternative splicing, post translational modification and many more. These processes in general provide phenotypic complexity and are very impactful in different stages of organism life, proxy of which can be inferred by tremendous cost implied with their misregulation in the form of genetic and regulation altered diseases. In our lab we are trying to solve problems of such a scale by using both bottom up and top down approaches. We are trying to leverage our knowledge of protein structures and their mechanism of action (bottoms up) with the broader scale of genome wide loci contributing maximally to such diversities (top down). we hereby are interested in the following aspects of this problem.
+      dogma: "proteogenomics"
+      description:
+        - quantifying the functional alternative splicing events (using experimental mass spec and rna seq integration)
+        - Systematic characterization of such events from protein sequence changes perspective.
+        - measuring the impact of gene-pieces (exons) on function protein regions conservation and choice of protein regions being altered by such events. 
+      conclusion: We believe that knowledge and information generated from above will help us design natural intelligence based protein and corresponding sequences. Further such knowledge also has impact in knowing the regions of protein amenable for modifications and regions which are not, which can also further be transitioned for therapeutic purposes or in future can be thought to provide alternatives to costly RNA based therapeutics. 
+      image: assets/projects/proteogenomics.png
+      caption: "proteogenomics"
+- title: P1 - One gene multiple protein conundrum.
+  type: time_table 
+  contents:
+    - body: One of the major challenges in current understanding of central dogma is perceiving and transitioning from “one gene one protein” paradigm to “one gene multiple protein” one. For instance, the number of genes in human or higher eukaryotes represent only a fraction of proteins expressed. This diversity is aided at multiple levels and equally regulated via processes known as Alternative transcription initiation and termination, alternative translation sites, alternative splicing, post translational modification and many more. These processes in general provide phenotypic complexity and are very impactful in different stages of organism life, proxy of which can be inferred by tremendous cost implied with their misregulation in the form of genetic and regulation altered diseases. In our lab we are trying to solve problems of such a scale by using both bottom up and top down approaches. We are trying to leverage our knowledge of protein structures and their mechanism of action (bottoms up) with the broader scale of genome wide loci contributing maximally to such diversities (top down). we hereby are interested in the following aspects of this problem.
+      dogma: "proteogenomics"
+      description:
+        - quantifying the functional alternative splicing events (using experimental mass spec and rna seq integration)
+        - Systematic characterization of such events from protein sequence changes perspective.
+        - measuring the impact of gene-pieces (exons) on function protein regions conservation and choice of protein regions being altered by such events. 
+      conclusion: We believe that knowledge and information generated from above will help us design natural intelligence based protein and corresponding sequences. Further such knowledge also has impact in knowing the regions of protein amenable for modifications and regions which are not, which can also further be transitioned for therapeutic purposes or in future can be thought to provide alternatives to costly RNA based therapeutics. 
+      image: assets/projects/proteogenomics.png
+      caption: "proteogenomics"
+- title: P1 - One gene multiple protein conundrum.
+  type: time_table 
+  contents:
+    - body: One of the major challenges in current understanding of central dogma is perceiving and transitioning from “one gene one protein” paradigm to “one gene multiple protein” one. For instance, the number of genes in human or higher eukaryotes represent only a fraction of proteins expressed. This diversity is aided at multiple levels and equally regulated via processes known as Alternative transcription initiation and termination, alternative translation sites, alternative splicing, post translational modification and many more. These processes in general provide phenotypic complexity and are very impactful in different stages of organism life, proxy of which can be inferred by tremendous cost implied with their misregulation in the form of genetic and regulation altered diseases. In our lab we are trying to solve problems of such a scale by using both bottom up and top down approaches. We are trying to leverage our knowledge of protein structures and their mechanism of action (bottoms up) with the broader scale of genome wide loci contributing maximally to such diversities (top down). we hereby are interested in the following aspects of this problem.
+      dogma: "proteogenomics"
+      description:
+        - quantifying the functional alternative splicing events (using experimental mass spec and rna seq integration)
+        - Systematic characterization of such events from protein sequence changes perspective.
+        - measuring the impact of gene-pieces (exons) on function protein regions conservation and choice of protein regions being altered by such events. 
+      conclusion: We believe that knowledge and information generated from above will help us design natural intelligence based protein and corresponding sequences. Further such knowledge also has impact in knowing the regions of protein amenable for modifications and regions which are not, which can also further be transitioned for therapeutic purposes or in future can be thought to provide alternatives to costly RNA based therapeutics. 
+      image: assets/projects/proteogenomics.png
+      caption: "proteogenomics"
+- title: P1 - One gene multiple protein conundrum.
+  type: time_table 
+  contents:
+    - body: One of the major challenges in current understanding of central dogma is perceiving and transitioning from “one gene one protein” paradigm to “one gene multiple protein” one. For instance, the number of genes in human or higher eukaryotes represent only a fraction of proteins expressed. This diversity is aided at multiple levels and equally regulated via processes known as Alternative transcription initiation and termination, alternative translation sites, alternative splicing, post translational modification and many more. These processes in general provide phenotypic complexity and are very impactful in different stages of organism life, proxy of which can be inferred by tremendous cost implied with their misregulation in the form of genetic and regulation altered diseases. In our lab we are trying to solve problems of such a scale by using both bottom up and top down approaches. We are trying to leverage our knowledge of protein structures and their mechanism of action (bottoms up) with the broader scale of genome wide loci contributing maximally to such diversities (top down). we hereby are interested in the following aspects of this problem.
+      dogma: "proteogenomics"
+      description:
+        - quantifying the functional alternative splicing events (using experimental mass spec and rna seq integration)
+        - Systematic characterization of such events from protein sequence changes perspective.
+        - measuring the impact of gene-pieces (exons) on function protein regions conservation and choice of protein regions being altered by such events. 
+      conclusion: We believe that knowledge and information generated from above will help us design natural intelligence based protein and corresponding sequences. Further such knowledge also has impact in knowing the regions of protein amenable for modifications and regions which are not, which can also further be transitioned for therapeutic purposes or in future can be thought to provide alternatives to costly RNA based therapeutics. 
+      image: assets/projects/proteogenomics.png
+      caption: "proteogenomics"
+- title: P1 - One gene multiple protein conundrum.
+  type: time_table 
+  contents:
+    - body: One of the major challenges in current understanding of central dogma is perceiving and transitioning from “one gene one protein” paradigm to “one gene multiple protein” one. For instance, the number of genes in human or higher eukaryotes represent only a fraction of proteins expressed. This diversity is aided at multiple levels and equally regulated via processes known as Alternative transcription initiation and termination, alternative translation sites, alternative splicing, post translational modification and many more. These processes in general provide phenotypic complexity and are very impactful in different stages of organism life, proxy of which can be inferred by tremendous cost implied with their misregulation in the form of genetic and regulation altered diseases. In our lab we are trying to solve problems of such a scale by using both bottom up and top down approaches. We are trying to leverage our knowledge of protein structures and their mechanism of action (bottoms up) with the broader scale of genome wide loci contributing maximally to such diversities (top down). we hereby are interested in the following aspects of this problem.
+      dogma: "proteogenomics"
+      description:
+        - quantifying the functional alternative splicing events (using experimental mass spec and rna seq integration)
+        - Systematic characterization of such events from protein sequence changes perspective.
+        - measuring the impact of gene-pieces (exons) on function protein regions conservation and choice of protein regions being altered by such events. 
+      conclusion: We believe that knowledge and information generated from above will help us design natural intelligence based protein and corresponding sequences. Further such knowledge also has impact in knowing the regions of protein amenable for modifications and regions which are not, which can also further be transitioned for therapeutic purposes or in future can be thought to provide alternatives to costly RNA based therapeutics. 
+      image: assets/projects/proteogenomics.png
+      caption: "proteogenomics"
+
+- title: 7.    Study of intrachain domain interfaces and its implication in protein structure modeling.
   type: time_table
   contents:
-    - light: Domains are conserved sequence or structural regions of a protein, often capable of folding and existing on their own in an aqueous solution. They can be described as structural and functional units of a protein. Having multiple domains in protein facilitates complex biological function as well as enhances its efficiency by providing scaffold for functional modules. Over 80% of the eukaryotic genome codes for multidomain proteins. Understanding the physiological properties of intra-chain domain-domain interaction interfaces (DDIs) of multidomain proteins and their evolutionary conservation can provide insights into the function, engineering, and modeling of multidomain proteins. Through our systematic and comprehensive study we have found that  domain interfaces are in general conserved in the intra- chain domain-domain interfaces in multidomain proteins. We have performed a systematic and comprehensive study on the conservation of intra- chain domain-domain interfaces in multidomain proteins. For multiple structures solved for the same sequence, we have found that domain interfaces are in general conserved among them. Any large conformational changes occur upon ligand/DNA/RNA binding that involves domains.
+    - body: Domains are conserved sequence or structural regions of a protein, often capable of folding and existing on their own in an aqueous solution. They can be described as structural and functional units of a protein. Having multiple domains in protein facilitates complex biological function as well as enhances its efficiency by providing scaffold for functional modules. Over 80% of the eukaryotic genome codes for multidomain proteins. Understanding the physiological properties of intra-chain domain-domain interaction interfaces (DDIs) of multidomain proteins and their evolutionary conservation can provide insights into the function, engineering, and modeling of multidomain proteins. Through our systematic and comprehensive study we have found that  domain interfaces are in general conserved in the intra- chain domain-domain interfaces in multidomain proteins. We have performed a systematic and comprehensive study on the conservation of intra- chain domain-domain interfaces in multidomain proteins. For multiple structures solved for the same sequence, we have found that domain interfaces are in general conserved among them. Any large conformational changes occur upon ligand/DNA/RNA binding that involves domains.
       dogma: Comp. Structural Proteomics
-      
-      image : assets/projects/shashibp.jpg
-
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Associate Professor
-      institution: Dept. Of Biological Sciences, Indian Institute of Science Education and Research, Mohali
-      year: 2020 - Present
-      
-    - title: Assistant Professor,
-      institution: Dept. Of Biological Sciences, Indian Institute of Science Education and Research, Mohali
-      year: 2012 - 2020
-      description:
-        - To understand the structural basis ofenzyme promiscuity
-        - Development of catalytic site prediction method
-        - Structural analysis of intra-chain domain interfaces
-
-- title: Post Doctoral
-  type: time_table
-  contents:
-    - title: Under Supervision of <a href="https://www.jfaulon.com/">Dr. Jean-Loup Faulon</a>
-      institution: iSSB, University of Evry-Val D'Essonne
-      year: 2011-2012
-    
-    - title: Under Supervision of <u>Dr. Thomas Bruls</u>
-      institution: Genoscope, CEA, France
-      year: 2010-2011
-
-    - title: Under Supervision of <a href="https://biosciences.gatech.edu/people/jeffrey-skolnick">Dr. Jeffrey Skolnick</a>
-      year: 2005-2009
-      description:
-        - 2005-2009, Center for the Study of Systems Biology, Georgia Institute of Technology
-        - 2005, Center of excellence in Bioinformatics, University of Buffalo
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Please have a look at my projects page.
-    
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u>, Playing Guitar, Reading enthusiast, Cycling.
+      image: assets/projects/domainDocking.gif

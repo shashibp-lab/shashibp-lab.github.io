@@ -1,37 +1,56 @@
-
-<!--  -->
 <ul class="card-text font-weight-light list-group list-group-flush">
-    {% for content in entry.contents %}
-      <li class="list-group-item">
-        <div class="row">
-          {% if content.dogma %}
-            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" >
-              <span class="badge font-weight-bold danger-color-dark align-middle" style="font-size: 0.7rem">
-                <!-- <span style="width: 0; overflow: visible;" ></span> -->
-                {{ content.dogma }}
-              </span>
-            </div>
+  {% for content in entry.contents %}
+    <li class="list-group-item">
+      <div class="row">
+        {% if content.dogma %}
+          <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+              {{ content.dogma }}
+            </span>
+          </div>
+        {% endif %}
+        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+          {% if content.title %}
+          <h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
           {% endif %}
-          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
-            {% if content.bold %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{content.bold}}</h6>
-            {% endif %}
-            {% if content.light %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{content.light}}</h6>
-            {% endif %}
-            {% if content.image %}
+          {% if content.body %}
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; text-align: justify;">{{content.body}}</h6>
+          {% endif %}
+          {% if content.description %}
+            <ul class="items">
+              {% for item in content.description %}
+                <li>
+                  {% if item.contents %}
+                    <span class="item-title">{{ item.title }}</span>
+                    <ul class="subitems">
+                    {% for subitem in item.contents %}
+                      <li><h6 class="subitem">{{ subitem }}</h6></li>
+                    {% endfor %}
+                    </ul>
+                  {% else %}
+                    <span class="item">{{ item }}</span>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          {% if content.conclusion %}
+          <br>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; text-align: justify;">{{content.conclusion}}</h6>
+          {% endif %}
+          {% if content.image && content.caption %}
             <div class="row">
               <div class="col-sm mt-3 mt-md-0">
+                <br>
                   {% include figure.html path=content.image title="example image" class="img-fluid rounded z-depth-1" %}
               </div>
               </div>
               <div class="caption">
-              This image can also have a caption. It's like magic.
+              {{ content.caption }}
               </div>
-            {% endif %}
-            
-          </div>
+          {% endif %}
         </div>
-      </li>
-    {% endfor %}
-    </ul>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
