@@ -1,17 +1,12 @@
 ---
 layout: about
 title: About
-permalink: /
-subtitle: <a href='#'>Affiliation</a>. Associte Professor, Head Computer Centre, Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali.
+permalink: aboutus
+nav: true
+nav_order: 1
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>Rm. 4F7, AB-2</p>
-    <p>1ISER Campus, Sector 81</p>
-    <p>Mohali, India, 140306</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
