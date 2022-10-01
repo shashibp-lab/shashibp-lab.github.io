@@ -19,11 +19,13 @@ layout: default
 
 
 
-          <div class="clearfix">
-            <br><br>
-            <h2><u>Welcome!!</u></h2>
-            <p style="text-align: justify; padding-right: 100px;">{{ content }}</p>
-          </div>
+          <span class="clearfix">
+            <!-- <p style="text-align: justify; padding-right: 100px;"> -->
+            <span>
+            <span><h2><u>Hello!!</u></h2></span>
+            <span>{{ content }}</span>
+          </span>
+        </span>
 
           <div>
           <h3><u>Join Us</u></h3>
@@ -31,15 +33,36 @@ layout: default
           </div>
 
           <div>
+            <h3><u>Lab</u></h3>
+            <p style="text-align: justify;">{{ page.lab }}</p>
+          </div>
+
+          <div class="row">
+            <div class="col-sm mt-3 mt-md-0">
+                {% include figure.html path="assets/about/labB.jpg" title="Google Map" class="img-fluid rounded z-depth-1" %}
+            </div>
+          </div>
+
+          <!-- <h3><u>Journal club and seminars</u></h3> -->
+          <div class="row">
+            <div class="col-sm mt-5 mt-md-0">
+                {% include figure.html path="assets/about/jc1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            </div>
+            <div class="col-sm mt-5 mt-md-0">
+                {% include figure.html path="assets/about/jc2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            </div>
+          </div>
+
+          <!-- <div>
           <br><br>
           <h3><u>Eligibility</u></h3>
           <p style="text-align: justify;">{{ page.eligibility }}</p>
-          </div>
+          </div> -->
 
 
           <br><br>
           <div>
-          <h3><u>Where we are located</u></h3>
+          <h3><u>Campus</u></h3>
           <p style="text-align: justify;">{{ page.location }}</p>
           </div>
           <br>
@@ -57,7 +80,7 @@ layout: default
                 {% include figure.html path="assets/about/s1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
             </div>
             <div class="col-sm mt-3 mt-md-0">
-                {% include figure.html path="assets/about/s2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+                {% include figure.html path="assets/about/s2.gif" title="example image" class="img-fluid rounded z-depth-1" %}
             </div>
             <div class="col-sm mt-3 mt-md-0">
                 {% include figure.html path="assets/about/s3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -70,21 +93,22 @@ layout: default
           <br><br>
           <h3><u>The beautiful campus</u></h3>
           <div class="row">
-            <div class="col-sm mt-3 mt-md-0">
-                {% include figure.html path="assets/about/b1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            <div class="col-sm mt-5 mt-md-0">
+                {% include figure.html path="assets/about/gr1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            </div>
+            <div class="col-sm mt-5 mt-md-0">
+                {% include figure.html path="assets/about/gr4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
             </div>
           </div>
-          
-          <br><br>
-          <h3><u>Journal club and seminars</u></h3>
           <div class="row">
             <div class="col-sm mt-5 mt-md-0">
-                {% include figure.html path="assets/about/jc1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+                {% include figure.html path="assets/about/gr2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
             </div>
             <div class="col-sm mt-5 mt-md-0">
-                {% include figure.html path="assets/about/jc2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+                {% include figure.html path="assets/about/gr3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
             </div>
           </div>
+
 
           <br><br>
           <h3><u>The Group </u></h3>
