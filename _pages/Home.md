@@ -3,7 +3,7 @@ layout: home
 title: Home
 permalink: /
 presub: Shashi B. Pandit
-subtitle: <a href='#'>Affiliation</a>. Associte Professor, Head Computer Centre, Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali.
+subtitle: <a href='#'>Affiliation</a>. Associate Professor, FIC (Computer Center), Department of Biological Sciences, Indian Institute of Science Education and Research, Mohali.
 
 profile:
   align: right
