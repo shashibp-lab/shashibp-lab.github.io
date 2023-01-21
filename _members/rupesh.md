@@ -5,7 +5,7 @@ workdescription: I majorly focus on juncture where protein domains interact, and
 pos: 4
 img: assets/members/rupesh.jpg
 exams: CSIR-NET(LS)/GATE/DBT-Category-II
-category: current
+category: current Ph.D
 twitter: https://twitter.com/rupeshnataraj09
 ---
 

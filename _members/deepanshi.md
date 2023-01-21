@@ -5,6 +5,6 @@ workdescription: I work on computational identification of proteogenomic events 
 img: assets/members/deepanshi2.jpg
 exams: DST-INSPIRE/GATE/CSIR-NET(LS)/PMRF
 pos: 5
-category: current
+category: current Ph.D
 twitter: https://twitter.com/Deepanshi_awast
 ---

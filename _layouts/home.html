@@ -10,10 +10,10 @@ layout: default
             <span >{{ site.subtitle }}</span>
            </h1>
            <br>
-           <h2 class="desc">
-            <span >PI: </span>
-            <span style="font-weight: bold;">{{ page.presub}}</span>
-           </h2>
+           <h1 class="desc fw-bond text-dark text-center"> Welcome to the group page </h1>
+	   <h3 class="text-left">
+            <span style="font-weight: bold;"> Dr. {{ page.presub}}</span>
+           </h3>
           <p class="desc">{{ page.subtitle }}</p>
         </header>
 
@@ -44,11 +44,12 @@ layout: default
 
 
           <div>
-            <br><br>
-            <h2><u>Welcome!!</u></h2>
+	    <!--<h2><u>Welcome!!</u></h2> 
+	    <h3 class="text-center"> Welcome to the CSSB group page </h3> 
             <p>This is home page of ISCB-lab IISER Mohali. Following summarizes our research interest:  </p>
-            <div style="text-align: justify; font-style: oblique;">
-              <p >{{ content }}</p>
+	    -->
+            <div class="text-justify fw-bold">
+              <p>{{ content }}</p>
             </div>
             
           </div>

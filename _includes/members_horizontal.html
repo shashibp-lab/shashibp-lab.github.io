@@ -1,16 +1,9 @@
 <div class="card-item col">
-    <div class="card hoverable">
+    <div class="card hoverable mb-3">
       <div class="row g-0">
         {%- if member.img -%}
-        <div class="card-img col-md-6">
-          {% include figure.html path=member.img alt="member thumbnail" %}
-        </div>
-        <div class="col-md-6">
-        {%- else -%}
-        <div class="col-md-12">
-        {%- endif -%}
-          <div class="card-body">
-            <span class="card-title">{{ member.name }}</span>
+	<div class="col-md-12">
+	<div class="title m-2 border-bottom text-center text-dark">{{ member.name }}
             {%- if member.twitter -%}
               <span class="github-icon">
                 <span class="icon" data-toggle="tooltip" title="Code Repository">
@@ -20,16 +13,29 @@
                 </span>
               </span>
             {%- endif %}
-            <div class="card-text"> {{ member.level}} </div>
-            {% if member.category == "current" %}
-            <div class="card-text">Exams: {{ member.exams}} </div>
+	</div>
+	</div>
+
+        <div class="card-img col-md-5 align-center">
+          {% include figure.html path=member.img class="rounded-circle" alt="member thumbnail" %}
+        </div>
+        <div class="col-md-7">
+        {%- else -%}
+        <div class="col-md-12">
+		<div class="title m-2 border-bottom text-center text-dark">{{ member.name }} &nbsp; &nbsp; {{ member.level }}</div>
+        {%- endif -%}
+
+          <div class="card-body p-1 m-1">
+
+            {% if member.category == "current Ph.D" or member.category == "current BS-MS" %}
+               <div class="card-text">Exams: {{ member.exams}} </div>
             {% endif %}
 
-            {% if member.category == "alumni" %}
-            <p class="card-text">Project/Thesis: {{ member.workdescription}} </p>
+            {% if member.category == "alumni Ph.D" or member.category == "alumni BS-MS" %}
+            <p class="card-text fst-italic">Project/Thesis: {{ member.workdescription}} </p>
             
             {% else %}
-            <p class="card-text" style="font-style: oblique"> "{{ member.workdescription }}"</p>
+            <p class="card-text fst-normal"> "{{ member.workdescription }}"</p>
             {% endif %}
             
           </div>

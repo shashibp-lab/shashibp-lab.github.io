@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Lab group
+title: People
 permalink: /members/
 description: List of current and past members of the group.
 nav: true
-nav_order: 1
-display_categories: [Group Leader, current, alumni]
+nav_order: 4
+display_categories: [Group Leader, current Ph.D, current BS-MS, alumni Ph.D, alumni BS-MS]
 horizontal: true
 ---
 
