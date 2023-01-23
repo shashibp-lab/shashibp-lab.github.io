@@ -1,7 +1,7 @@
 ---
 name: Shashi B. Pandit
 level: Associate Professor, Head Computer Centre (CC), IISER Mohali
-workdescription: I lead my group to integrate and analyze complex dynamic interaction of biological networks.  
+workdescription: My group is engaged in deciphering the role of structural features in dictating protein molecular function. We also work on integrating and and analyses of complex dynamic interaction of biological networks.  
 pos: 1
 img: assets/members/shashibp.jpg
 exams: CSIR/GATE
